@@ -14,7 +14,7 @@ Salah satu contoh aplikasi steganografi dapat dilihat pada gambar dibawah ini. A
 
 <img src="images/SteganographyExample.png" width="425" alt = "Stegano"/>
 
-Secara keseluruhan kriptografi visual masih memiliki beberapa kelemahan. Salah satunya adalah gambar hasil dekripsi tidak tepat sama dengan gambar aslinya. Selain itu, setiap share yang terbentuk dari hasil enkripsi benar-benar tidak memiliki makna sehingga dapat menimbulkan kecurigaan bahwa gambar tersebut merupakan pesan rahasia. Oleh karena itu, metode steganografi melakukan enkripsi dengan cara menggunakan beberapa gambar yang bermakna sebagai cover untuk menyimpan share akan tidak terlihat mencurigakan.
+Secara keseluruhan kriptografi visual masih memiliki beberapa kelemahan. Salah satunya adalah gambar hasil dekripsi tidak tepat sama dengan gambar aslinya. Selain itu, setiap share yang terbentuk dari hasil enkripsi benar-benar tidak memiliki makna sehingga dapat menimbulkan kecurigaan bahwa gambar tersebut merupakan pesan rahasia. Oleh karena itu, metode steganografi melakukan enkripsi dengan cara menggunakan beberapa gambar yang bermakna sebagai cover untuk menyimpan share sehingga tidak terlihat mencurigakan.
 
 ### Referensi
 
