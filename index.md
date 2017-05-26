@@ -6,9 +6,13 @@ Kriptografi visual adalah suatu teknik yang digunakan untuk menyembunyikan infor
 
 Salah satu contoh sederhana kriptografi visual dapat dilihat dari gambar dibawah ini. Contoh ini adalah sebuah gambar biner yang hanya memiliki dua warna, yaitu hitam dan putih. Ada dua buah share yang dibentuk dari sebuah gambar yang dienkripsi. Masing-masing share tidak menunjukkan kemiripan apapun dengan gambar yang ingin  disampaikan. Hanya dengan menyatukan kedua share tersebut, pesan yang dienkripsi dapat dilihat dengan jelas.  
 
+<img src="images/VCExample.png" width="425" alt = "VC"/>
+
 Dalam perkembangannya, kriptografi dapat pula mengolah gambar abu-abu (grayscale) dan juga gambar berwarna. Namun, perkembangan yang paling signifikan adalah digunakannya steganografi. Steganografi adalah sebuah teknik menyembunyikan suatu pesan rahasia dalam suatu pesan biasa yang dapat berupa teks, gambar, audio, video, dan berkas lainnya. Dalam lingkup kriptografi visual, steganografi digunakan untuk menyembunyikan pesan dalam suatu gambar atau dalam gabungan beberapa gambar.
 
 Salah satu contoh aplikasi steganografi dapat dilihat pada gambar disamping. Ada 3 buah gambar, dimana gambar a dan b adalah gambar yang akan dienkripsi menjadi beberapa share dan gambar c adalah gambar yang merupakan pesan tersembunyi. Gambar d dan e adalah hasil gabungan dari share yang dibentuk pada saat enkripsi. Namun, tidak seperti kriptografi visual yang biasanya, ketika gambar d dan e digabungkan, maka akan menghasilkan gambar f yang merupakan pesan tersembunyi.
+
+<img src="images/SteganographyExample.png" width="425" alt = "Stegano"/>
 
 ### Referensi
 
