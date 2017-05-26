@@ -4,16 +4,24 @@ Keamanan informasi telah menjadi suatu prioritas utama bagi pengguna teknologi d
 
 Kriptografi visual adalah suatu teknik yang digunakan untuk menyembunyikan informasi yang berupa gambar. Teknik kriptografi ini pertama kali ditemukan oleh Moni Naor dan Adi Shamir pada tahun 1994. Mereka mendemonstrasikan teknik enkripsi dengan cara membagi suatu gambar menjadi n share (bagian) sehingga hanya seseorang yang memiliki share sebanyak n yang dapat mendekripsikan gambar tersebut. Dalam teknik ini tidak dibutuhkan komputasi untuk melakukan dekripsi gambar, tetapi hanya dibutuhkan indera visual manusia. Setiap share akan dicetak dengan tingkat transparansi atau distribusi warna pixel yang berbeda-beda sehingga dekripsi dilakukan dengan cara menumpuk kumpulan share tersebut menjadi satu. Pesan yang disampaikan akan langsung terlihat jelas pada saat sekumpulan share tersebut disatukan. Untuk meningkatkan keamanan kriptografi visual, enkripsi biasanya dilakukan oleh pihak ketiga yang disebut dealer. 
 
-|<img src="images/VCExample.png" width="425" alt = "VC"/>| Salah satu contoh sederhana kriptografi visual dapat dilihat dari gambar dibawah ini. Contoh ini adalah sebuah gambar biner yang hanya memiliki dua warna, yaitu hitam dan putih. Ada dua buah share yang dibentuk dari sebuah gambar yang dienkripsi. Masing-masing share tidak menunjukkan kemiripan apapun dengan gambar yang ingin  disampaikan. Hanya dengan menyatukan kedua share tersebut, pesan yang dienkripsi dapat dilihat dengan jelas. |
+Salah satu contoh sederhana kriptografi visual dapat dilihat dari gambar dibawah ini. Contoh ini adalah sebuah gambar biner yang hanya memiliki dua warna, yaitu hitam dan putih. Ada dua buah share yang dibentuk dari sebuah gambar yang dienkripsi. Masing-masing share tidak menunjukkan kemiripan apapun dengan gambar yang ingin  disampaikan. Hanya dengan menyatukan kedua share tersebut, pesan yang dienkripsi dapat dilihat dengan jelas.
+
+<img src="images/VCExample.png" width="425" alt = "VC"/>
 
 Dalam perkembangannya, kriptografi dapat pula mengolah gambar abu-abu (grayscale) dan juga gambar berwarna. Namun, perkembangan yang paling signifikan adalah digunakannya steganografi. Steganografi adalah sebuah teknik menyembunyikan suatu pesan rahasia dalam suatu pesan biasa yang dapat berupa teks, gambar, audio, video, dan berkas lainnya. Dalam lingkup kriptografi visual, steganografi digunakan untuk menyembunyikan pesan dalam suatu gambar atau dalam gabungan beberapa gambar.
 
-Salah satu contoh aplikasi steganografi dapat dilihat pada gambar disamping. Ada 3 buah gambar, dimana gambar a dan b adalah gambar yang akan dienkripsi menjadi beberapa share dan gambar c adalah gambar yang merupakan pesan tersembunyi. Gambar d dan e adalah hasil gabungan dari share yang dibentuk pada saat enkripsi. Namun, tidak seperti kriptografi visual yang biasanya, ketika gambar d dan e digabungkan, maka akan menghasilkan gambar f yang merupakan pesan tersembunyi.
+Salah satu contoh aplikasi steganografi dapat dilihat pada gambar dibawah ini. Ada 3 buah gambar, dimana gambar a dan b adalah gambar yang akan dienkripsi menjadi beberapa share dan gambar c adalah gambar yang merupakan pesan tersembunyi. Gambar d dan e adalah hasil gabungan dari share yang dibentuk pada saat enkripsi. Namun, tidak seperti kriptografi visual yang biasanya, ketika gambar d dan e digabungkan, maka akan menghasilkan gambar f yang merupakan pesan tersembunyi.
 
 <img src="images/SteganographyExample.png" width="425" alt = "Stegano"/>
+
+Secara keseluruhan kriptografi visual masih memiliki beberapa kelemahan. Salah satunya adalah gambar hasil dekripsi tidak tepat sama dengan gambar aslinya. Selain itu, setiap share yang terbentuk dari hasil enkripsi benar-benar tidak memiliki makna sehingga dapat menimbulkan kecurigaan bahwa gambar tersebut merupakan pesan rahasia. Oleh karena itu, metode steganografi melakukan enkripsi dengan cara menggunakan beberapa gambar yang bermakna sebagai cover untuk menyimpan share akan tidak terlihat mencurigakan.
 
 ### Referensi
 
 [1] https://en.wikipedia.org/wiki/Visual_cryptography
+
 [2] http://www.datagenetics.com/blog/november32013/
+
 [3] http://users.telenet.be/d.rijmenants/en/visualcrypto.htm
+
+[4] Munir, Rinaldi, 2017. Diktat Kuliah Strategi Algoritma. Bandung : Program Studi Teknik Informatika Institut Teknologi Bandung
